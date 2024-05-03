@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 50px;
+    align-items: center;
+}
+.left {
+    display: flex;
+    justify-content: space-between;
+    width: 610px;
+}
+
+.right ul{
+    display: flex;
+}
+.left ul{
+    display: flex;
+}
+.logo img{
+    width: 100px;
+}
+.links ul{
+    justify-content: space-evenly;
+    width: 500px;
+}
+.links ul li{
+    list-style: none;
+    
+}
+.links ul li a{
+    text-decoration: none;
+}
+
+.right ul li{
+    list-style: none;
+}
+.right ul li a{
+    text-decoration: none;
+}
+
+.right{
+ width: 400px;
+
+}
+
+.right ul{
+    justify-content: space-evenly;
+}
+.aa{
+    color: rgb(0, 0, 0);
+}
+.itlink a:hover{
+    text-decoration: underline 1.3px solid black;
+    
+}
+
+/* body start hear */
+
+.banner{
+    margin: 10px;
+    /* width: 100%; */
+}
+
+.banner img{
+    width: 100%;
+}
+.surface{
+    position: absolute;
+    top: 220px;
+    left: 905px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    justify-content: space-evenly;
+}
+
+.surface button {
+    border: none;
+    display: flex;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    border: none;
+    align-items: center;
+    border: 2px solid blue;
+    background-color: blue;
+    
+}
+.surface a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.one button{
+    border: none;
+    display: flex;
+    width: 90px;
+    height: 30px;
+    justify-content: center;
+    border: none;
+    align-items: center;
+    border: 2px solid blue;
+    background-color: blue;
+    color: white
+}
+
+.two button{
+    border: none;
+    display: flex;
+    width: 90px;
+    height: 30px;
+    justify-content: center;
+    border: none;
+    align-items: center;
+    border: 2px solid blue;
+    background-color: blue;
+    color: white
+}
+
+.three button   {
+    border: none;
+    display: flex;
+    width: 140px;
+    height: 30px;
+    justify-content: center;
+    border: none;
+    align-items: center;
+    border: 2px solid blue;
+    background-color: blue;
+    color: white
+}
+
+.fourr button{
+    border: none;
+    display: flex;
+    width: 120px;
+    height: 30px;
+    justify-content: center;
+    border: none;
+    align-items: center;
+    border: 2px solid blue;
+    background-color: blue;
+    color: white
+}
+
+
+.pic{
+    width: 35px;
+}
+
+.four ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    list-style: none;
+}
+.four{
+    justify-content: center;
+    display: flex;
+    height: 60px;
+    margin: 70px;
+}
+
+.four ul li{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    justify-content: space-between;
+}
+.four ul li a{
+   
+    color: blue;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 515px;
+    width: 347px;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #e0e0e0;
+    box-shadow: 1px 1px 5px 5px #e5e5e5
+}
+.img img{
+    width: 100%;
+}
+.text{
+    height: 160px;
+    width: 265px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    
+
+}
+
+.anc a{
+    text-decoration: none;
+}
+
+.anc a:hover{
+    text-decoration: underline 1.3px solid black;
+}
+
+.card1{
+    display: flex;
+    margin: 50px;
+}
+
+.banner2{
+    margin: 70px;
+}
+.banner2 img{
+    width: 100%;
+}
+
+.vid button{
+    width: 120px;
+}
+
+.lst button{
+    width: 140px;
+}
+
+.fb{
+    position: absolute;
+    left: 65px;
+    top: 1890px;
+} 
+
+.social{
+
+    display: flex;
+    margin: 60px;
+    width: 300px;
+    height: 110px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+   
+    height: 400px;
+   
+    list-style: none;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #ededed; */
+    padding: 25px;
+}
+
+footer ul li{
+    margin: 10px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #ededed; */
+    padding: 25px;
+    /* margin: 25px; */
+    margin: 40px 40px;
+}
+
+.ek ul{
+    display: flex;
+    list-style: none;
+    width: 510px;
+    justify-content: space-evenly;
+}
+
+.doo ul{
+    display: flex;
+    list-style: none;
+   width: 700px;
+    justify-content: space-evenly;
+}
+.footer{
+    background-color: #ededed;
+   
+}
+
+
+.surfacee{
+    position: absolute;
+    top: 1500px;
+    left: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    justify-content: space-evenly;
+}
+
+.surfacee button {
+    border: none;
+    display: flex;
+    width: 140px;
+    height: 40px;
+    justify-content: center;
+    border: none;
+    align-items: center;
+    border: 2px solid blue;
+    background-color: blue;
+    
+}
+.surfacee a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
